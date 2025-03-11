@@ -40,7 +40,7 @@ nav {
 .menu a:hover {
     color: #f0a500;
 }
-.bx bx-user {
+.btn {
     display: inline-block;
     cursor: pointer;
     font-size: 28px;
@@ -154,7 +154,7 @@ footer {
        text-align: center;
     }
 
-    .bx bx-user {
+    .btn {
         display: block;
         cursor: pointer;
      }
