@@ -9,10 +9,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(19, 17,29);
-    margin-top: -9px;
-    padding: 15px 20px;
-    margin-left:-9px
-    
+    padding: 15px;
+    color: white;
     
 }
 /* logo styling */
@@ -28,8 +26,8 @@ nav {
     top: 60px
     right: 20px;
     width: 200px
-    gap: 20px;
     font-size: 20px;
+    text-align: center;
 }
 .menu.active {
     display: block;
@@ -53,9 +51,6 @@ nav {
     cursor: pointer;
     font-size: 28px;
     color: white;
-    position: relative;
-    margin-left: auto;
-    
 }
 .menu :active {
     color: red;
@@ -143,12 +138,9 @@ footer {
 }
 @media (min-width: 768px) {
     .menu {
-       display: flex;
-       flex-direction: column;
-       position: static;
+       display: flex
+       position: flex;
        width: auto;
-       background-color: #fff;
-       text-align: center;
     }
     .menu.active {
         display: flex;
@@ -164,8 +156,7 @@ footer {
     }
 
     #btn {
-        display: block;
-        cursor: pointer;
+        display: none;
      }
 
     .about {
@@ -173,6 +164,6 @@ footer {
        text-align: center;
     }
     .logo {
-        display: none;
+        display: flex;
        
 }
