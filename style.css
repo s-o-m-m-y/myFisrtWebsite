@@ -22,32 +22,40 @@ nav {
 /* Styling the nav links*/
 .menu {
     list-style: none;
-    display: flex;
+    display: none;
+    padding: 0;
+    position: absolute;
+    top: 60px
+    right: 20px;
+    width: 200px
     gap: 20px;
     font-size: 20px;
 }
-.menu li {
-    margin: 0 15px;
+.menu.active {
+    display: block;
 }
-.menu a {
+.menu li {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+.menu li a {
     text-decoration: none;
     color: white;
     font-size: 20px;
     font-weight: bold;
-    transition: color 0.3s;
 
 }
 .menu a:hover {
     color: #f0a500;
 }
 #btn {
-    display: flex;
+    display: block;
     cursor: pointer;
     font-size: 28px;
     color: white;
     position: relative;
     margin-left: auto;
-    align-items: center;
+    
 }
 .menu :active {
     color: red;
@@ -133,25 +141,21 @@ footer {
     margin-right:-9px;
     margin-left:-9px;
 }
-@media (max-width: 768px) {
-    #btn {
-        display: block;
-    }
+@media (min-width: 768px) {
     .menu {
-       display: none;
+       display: flex;
        flex-direction: column;
-       position: absolute;
-       top: 60px;
-       right: 0;
-       width: 200%;
-       background-color: rgb(19, 17,29);
+       position: static;
+       width: auto;
+       background-color: #fff;
        text-align: center;
     }
     .menu.active {
         display: flex;
     }
     .menu li {
-        margin: 15px 0;
+        padding: 0 15px;
+        border: none;
     }
 
     .services {
@@ -169,7 +173,6 @@ footer {
        text-align: center;
     }
     .logo {
-        display: block;
-       text-align: center;
-    }
+        display: none;
+       
 }
