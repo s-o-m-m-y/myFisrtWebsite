@@ -11,6 +11,7 @@ nav {
     background-color: rgb(19, 17,29);
     margin-top: -9px;
     padding: 15px 20px;
+    margin-left:-9px
 
     
 }
@@ -126,6 +127,8 @@ footer {
     padding: 7px;
     text-align: center;
     color: white;
+    margin-right:-9px;
+    margin-left:-9px;
 }
 @media (max-width: 768px) {
     .btn {
