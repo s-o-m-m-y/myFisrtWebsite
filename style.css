@@ -40,7 +40,7 @@ nav {
     color: #f0a500;
 }
 .btn {
-    display: none;
+    display: inline-block;
     cursor: pointer;
     font-size: 28px;
     color: white;
