@@ -2,7 +2,7 @@ const btn =
 document.getElementById('btn');
 
 const navLinks =
-document.querySelector('.btn');
+document.querySelector('.menu');
 
 
 btn.addEventListener('click', () => {
