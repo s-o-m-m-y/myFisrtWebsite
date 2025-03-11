@@ -12,7 +12,7 @@ nav {
     margin-top: -9px;
     padding: 15px 20px;
     margin-left:-9px
-    overflow: hidden;
+    
     
 }
 /* logo styling */
@@ -41,11 +41,13 @@ nav {
     color: #f0a500;
 }
 .btn {
-    display: inline-block;
+    display: flex;
     cursor: pointer;
     font-size: 28px;
     color: white;
     position: relative;
+    margin-left: auto;
+    align-items: center;
 }
 .menu :active {
     color: red;
