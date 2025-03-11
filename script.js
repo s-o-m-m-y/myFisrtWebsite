@@ -1,10 +1,11 @@
 document.addEventListener("DOMContentLoaded"
 , function () {
-const btn = 
-    document.getElementById("btn");
+const menuIcon = 
+    document.querySelector(".btn");
     const navLinks =
         document.querySelector(".menu");
-    btn.addEventListner("click", function() {
+    
+    menuIcon.addEventListner("click", function() {
         console.log("Menu button clicked!");
         navLinks.classList.toggle("active");
     });
