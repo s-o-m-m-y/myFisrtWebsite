@@ -40,7 +40,7 @@ nav {
 .menu a:hover {
     color: #f0a500;
 }
-.btn {
+#btn {
     display: flex;
     cursor: pointer;
     font-size: 28px;
@@ -134,7 +134,7 @@ footer {
     margin-left:-9px;
 }
 @media (max-width: 768px) {
-    .btn {
+    #btn {
         display: block;
     }
     .menu {
@@ -156,7 +156,7 @@ footer {
        text-align: center;
     }
 
-    .btn {
+    #btn {
         display: block;
         cursor: pointer;
      }
