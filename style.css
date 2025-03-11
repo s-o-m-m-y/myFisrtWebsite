@@ -1,7 +1,7 @@
 
 body {
     background-color: antiquewhite;
-    padding: 20px;
+   
 }
 /*Style the navbar */
 nav {
@@ -94,6 +94,7 @@ border-radius: 20px;
     align-items: center;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+    margin-right: 10px;
 
 }
 .about {
@@ -101,6 +102,7 @@ border-radius: 20px;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    margin-right: 10px
 }
 .socialimg {
     width: 50px;
