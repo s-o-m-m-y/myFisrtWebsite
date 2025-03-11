@@ -12,7 +12,7 @@ nav {
     margin-top: -9px;
     padding: 15px 20px;
     margin-left:-9px
-
+    overflow: hidden;
     
 }
 /* logo styling */
@@ -40,11 +40,12 @@ nav {
 .menu a:hover {
     color: #f0a500;
 }
-.btn {
+.bx bx-user {
     display: inline-block;
     cursor: pointer;
     font-size: 28px;
     color: white;
+    position: relative;
 }
 .menu :active {
     color: red;
@@ -153,7 +154,7 @@ footer {
        text-align: center;
     }
 
-    .btn {
+    .bx bx-user {
         display: block;
         cursor: pointer;
      }
