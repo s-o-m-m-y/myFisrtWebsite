@@ -1,5 +1,5 @@
-const bx bx-user = 
-document.getElementById('bx bx-user');
+const btn = 
+document.getElementById('btn');
 
 const navLinks =
 document.querySelector('.nav-links');
